@@ -484,6 +484,12 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsEditorsSubtitle => 'Configure how different editors work';
 
   @override
+  String get settingsEditorsReadOnlyMode => '只读模式';
+
+  @override
+  String get settingsEditorsReadOnlyModeSubtitle => '开启后笔记不可编辑、删除、重命名、移动或新建';
+
+  @override
   String get settingsEditorsDefaultEditor => 'Default Editor';
 
   @override
