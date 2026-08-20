@@ -31,6 +31,7 @@ class SettingsGit extends StatelessWidget {
         SettingsHeader(context.loc.settingsGitAuthor),
         const GitAuthor(),
         const GitAuthorEmail(),
+        const GitProxy(),
         ListTile(
           title: Text(context.loc.settingsGitRemoteTitle),
           subtitle: Text(context.loc.settingsGitRemoteSubtitle),
